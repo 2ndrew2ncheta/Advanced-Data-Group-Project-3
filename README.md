@@ -3,13 +3,13 @@ Data and files for the financialized housing project
 
 Adding the skeleton for the readme file-------
 
-# Analysis of TK data set — MM/YYYY to MM/YYYY
+# Analysis of FINANCIALIZED HOUSING data set — MM/YYYY to MM/YYYY
 
 This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This analysis uses LOTS OF spreadsheets.
 
 The spreadsheets come from the following sources:
 
