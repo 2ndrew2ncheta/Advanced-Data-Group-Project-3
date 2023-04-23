@@ -42,7 +42,7 @@ Buildings that do not have enough information to calculate a capitalization rate
 
 Using these results, we computed the mean and median capitalization rates for each of the four boroughs. Staten Island was not included. 
 Our analysis showed: 
-  Queens: On average borough 3 has the highest capitalization rates (12.6%) all NYC boroughs excluding Shelter Island making them the riskiest investments. The low median cap rate (3.8%),however, means the majority of buildings in Queens don't possess a high risk for investors. 
+  Queens: On average borough 3 has the highest capitalization rates (12.6%) all NYC boroughs excluding Staten Island making them the riskiest investments. The low median cap rate (3.8%),however, means the majority of buildings in Queens don't possess a high risk for investors. 
   Manhattan: this borough contains the second highest cap rate (3.44%) on average. Investments here promise lower return but also lower risks for investors. Also the numbers show that most buildings here have an even lower cap rate (2.19%), meaning large inventory of low-profit buildings.. 
   Bronx: on average the Bronx has a low cap rate (3.14%). The majority of buildings have a slightly higher cap rate (3.27%). Investors will have an easier time finding similar buildings here. 
   Brooklyn: this borough has the lowest cap rate (3.08%) and the majority of buildings has a slightly higher cap rate (3.73%). Conditions in Brooklyn are similar to the Bronx. 
