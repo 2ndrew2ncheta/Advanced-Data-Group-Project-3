@@ -1,7 +1,6 @@
 # Advanced-Data-Group-Project-3
 Data and files for the financialized housing project
 
-Adding the skeleton for the readme file-------
 
 # Analysis of FINANCIALIZED HOUSING data set — 2020 to 2021
 
@@ -9,42 +8,52 @@ This repository contains data, analytic code, and findings that support portions
 
 ## Data
 
-This analysis uses LOTS OF spreadsheets.
+This analysis is based on two spreadsheets.
 
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - `acris_sales_2020-2022.csv`: Raw data on 2003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
+  - 'file_201_data_sm_tract.csv': Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,886 forms submitted to the tax commission. 
 
-Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
+These spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- `price_per_bldg` — The sale price of the buildings represented in the acris file.
+- `TOTAL INCOME FROM REAL ESTATE` — The annual business income for building owners in the 201 file, including rents, billboards, and ancillary services. 
+- 'TOTAL EXPENSES' — The total annual expenses for owners represented in the 201 file, such as maintenance and management expenses.
+- Borough, Block, and Lot: both files contain information on the BBL of each building, a unique identifier for property plots in New York City. 
 
 ## Methodology
 
-The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following analyses:
+The notebook [`Cap Rates(final).ipynb`](notebooks/Cap Rates(final).ipynb) performs the following analyses:
 
-##### Part 1: TKTK
+##### Part 1: Import and Cleaning
 
-- Description of what you did with the data
+- Both spreadsheets were imported into Python and cleaned of duplicates. Both files contained unexpected duplicates--perhaps due to erroneous filings or multiple sales within the two-year period. In order to simplify the analysis, we omitted these data using the drop_duplicates() function. 
+
+##### Part 2: Calculation of Cap Rates
+
+- The two data sets were merged into a single data frame for the 241 unique BBLs that are represented on both data sets. Using the combined dataframe, the columns for income, expenses, and building cost were used to calculate the capitalization ratio for each building, using the formula CR=(I-E)/BC. 
+Buildings that do not have enough information to calculate a capitalization rate were dropped using the dropna() function.
 
 
-##### Part 2: TKTK
+##### Part 3: Analysis by Borough
 
-- Description of what you did with the data
+Using these results, we computed the mean and median capitalization rates for each of the four boroughs. Staten Island was not included. 
+
 
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
+The notebooks output this spreadsheet which contains the merged data from the two spreadsheets, and the capitalization rate for 241 buildings represented on both sheets : [`output/capitalizationrates.csv`](output/capitalizationrates.csv).
 
 ## Running the analysis yourself
 
 You can run the analysis yourself. To do so, you'll need the following installed on your computer:
 
 - Python 3
-- The Python libraries specified in [`requirements.txt`](requirements.txt)
+- Pandas
+- Jupyter Notebooks
 
 ## Licensing
 
@@ -52,4 +61,5 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com.
+Contact: 
+  - Andrew Ancheta at andrew.ancheta@gmail.com.
