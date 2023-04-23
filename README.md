@@ -14,7 +14,7 @@ The spreadsheets come from the following sources:
 
 - Name of source:
   - `acris_sales_2020-2022.csv`: Raw data on 2,003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
-  - `file_201_data_sm_tract.csv`: Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,886 forms submitted to the tax commission. 
+  - `file_201_data_sm_tract.csv`: Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,886 forms submitted to the tax commission in the year 2021.
 
 These spreadsheets contain, among others, the following columns relevant to the analysis:
 
