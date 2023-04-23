@@ -14,7 +14,7 @@ The spreadsheets come from the following sources:
 
 - Name of source:
   - `acris_sales_2020-2022.csv`: Raw data on 2,003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
-  - `file_201_data_sm_tract.csv`: Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,886 forms submitted to the tax commission in the year 2021.
+  - `file_201_data_sm_tract.csv`: Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,887 forms submitted to the tax commission in the year 2021.
 
 These spreadsheets contain, among others, the following columns relevant to the analysis:
 
@@ -39,9 +39,17 @@ Buildings that do not have enough information to calculate a capitalization rate
 
 ##### Part 3: Analysis by Borough
 
+
 Using these results, we computed the mean and median capitalization rates for each of the four boroughs. Staten Island was not included. 
+Our analysis showed: 
+  Queens: On average borough 3 has the highest capitalization rates (12.6%) all NYC boroughs excluding Shelter Island making them the riskiest investments. The low median cap rate (3.8%),however, means the majority of buildings in Queens don't possess a high risk for investors. 
+  Manhattan: this borough contains the second highest cap rate (3.44%) on average. Investments here promise lower return but also lower risks for investors. Also the numbers show that most buildings here have an even lower cap rate (2.19%), meaning large inventory of low-profit buildings.. 
+  Bronx: on average the Bronx has a low cap rate (3.14%). The majority of buildings have a slightly higher cap rate (3.27%). Investors will have an easier time finding similar buildings here. 
+  Brooklyn: this borough has the lowest cap rate (3.08%) and the majority of buildings has a slightly higher cap rate (3.73%). Conditions in Brooklyn are similar to the Bronx. 
 
-
+  
+  
+It's worth noting this is only a limited sample and doesn't represent the state of all cap rates in NYC. 
 
 ## Outputs
 
