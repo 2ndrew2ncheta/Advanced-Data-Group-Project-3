@@ -25,7 +25,7 @@ These spreadsheets contain, among others, the following columns relevant to the 
 
 ## Methodology
 
-The notebook [`Cap Rates(final).ipynb`](notebooks/Cap Rates(final).ipynb) performs the following analyses:
+The notebook [Cap Rates(final).ipynb](notebooks/Cap Rates(final).ipynb) performs the following analyses:
 
 ##### Part 1: Import and Cleaning
 
