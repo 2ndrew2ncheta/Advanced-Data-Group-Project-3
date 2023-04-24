@@ -72,3 +72,4 @@ All code in this repository is available under the [MIT License](https://opensou
 
 Contact: 
   - Andrew Ancheta at andrew.ancheta@gmail.com.
+  - Nicholas Morgan at nikolaimorgan@protonmail.com
