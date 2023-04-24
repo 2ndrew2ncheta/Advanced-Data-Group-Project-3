@@ -54,7 +54,7 @@ It's worth noting this is only a limited sample and doesn't represent the state 
 ## Outputs
 
 The notebooks output this spreadsheet which contains the merged data from the two spreadsheets, and the capitalization rate for 241 buildings represented on both sheets : [`output/capitalizationrates.csv`](output/capitalizationrates.csv).
-Another file, [`output/ResultsByBoro.csv`](output/ResultsByBoro.csv) contains the mean and median capitalization rates for buildings in this analysis, sorted by borough. Staten Island was not included. 
+Another file, [`output/ResultsByBoro.csv`](/output/ResultsByBoro.csv) contains the mean and median capitalization rates for buildings in this analysis, sorted by borough. Staten Island was not included. 
 
 ## Running the analysis yourself
 
