@@ -4,7 +4,7 @@ Data and files for the financialized housing project
 
 # Analysis of FINANCIALIZED HOUSING data set — 2020 to 2021
 
-This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings on the capitalization rates of certain buildings in New York City. This is a key metric for assessing the riskiness of real estate investments. 
 
 ## Data
 
@@ -12,7 +12,6 @@ This analysis is based on two spreadsheets.
 
 The spreadsheets come from the following sources:
 
-- Name of source:
   - [`acris_sales_2020-2022.csv`](data/acris_sales_2020-2022.csv): Raw data on 2,003 building sales in New York City from the years 2020-2022. These data are based on the BIP Database from the University Neighborhood Housing Program. 
   - [`file_201_data_sm_tract.csv`](file_201_data_sm_tract.csv): Raw data from the Tax Commission Income & Expenses forms, submitted by landowners to the tax commission seeking revisions on their tax payments. This file contains information from 26,887 forms submitted to the tax commission in the year 2021.
 
@@ -20,7 +19,7 @@ These spreadsheets contain, among others, the following columns relevant to the 
 
 - `price_per_bldg` — The sale price of the buildings represented in the acris file.
 - `TOTAL INCOME FROM REAL ESTATE` — The annual business income for building owners in the 201 file, including rents, billboards, and ancillary services. 
-- 'TOTAL EXPENSES' — The total annual expenses for owners represented in the 201 file, such as maintenance and management expenses.
+- `TOTAL EXPENSES` — The total annual expenses for owners represented in the 201 file, such as maintenance and management expenses.
 - Borough, Block, and Lot: both files contain information on the BBL of each building, a unique identifier for property plots in New York City. 
 
 ## Methodology
