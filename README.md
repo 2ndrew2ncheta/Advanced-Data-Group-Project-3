@@ -72,4 +72,6 @@ All code in this repository is available under the [MIT License](https://opensou
 
 Contact: 
   - Andrew Ancheta at andrew.ancheta@gmail.com.
-  - Nicholas Morgan at nikolaimorgan@protonmail.com
+  - Nicholas Morgan at nikolaimorgan@protonmail.com.
+  - Impu Sehgal at impu.sehgal42@journalism.cuny.edu.
+  - Jonnathan Pulla Velecela at j.pullavelecela32@journalism.cuny.edu. 
